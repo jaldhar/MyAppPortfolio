@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TableRow>
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_gravity="fill_vertical" />
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btnMovies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/cell_right_margin"
+            android:background="@color/colorPrimary"
+            android:backgroundTintMode="add"
+            android:backgroundTint="@color/colorAccent"
+            android:text="@string/popular_movies"
+            android:onClick="onButtonClick" />
+
+        <Button
+            android:id="@+id/btnStock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/cell_left_margin"
+            android:background="@color/colorPrimary"
+            android:backgroundTintMode="add"
+            android:backgroundTint="@color/colorAccent"
+            android:text="@string/stock_hawk"
+            android:onClick="onButtonClick" />
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btnBigger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/cell_right_margin"
+            android:background="@color/colorPrimary"
+            android:backgroundTintMode="add"
+            android:backgroundTint="@color/colorAccent"
+            android:text="@string/build_bigger"
+            android:onClick="onButtonClick" />
+
+        <Button
+            android:id="@+id/btnMaterial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/cell_left_margin"
+            android:background="@color/colorPrimary"
+            android:backgroundTintMode="add"
+            android:backgroundTint="@color/colorAccent"
+            android:text="@string/material"
+            android:onClick="onButtonClick" />
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btnUbiquitous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/cell_right_margin"
+            android:background="@color/colorPrimary"
+            android:backgroundTintMode="add"
+            android:backgroundTint="@color/colorAccent"
+            android:text="@string/ubiquitous"
+            android:onClick="onButtonClick" />
+
+        <Button
+            android:id="@+id/btnCapstone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/cell_left_margin"
+            android:background="@color/colorPrimary"
+            android:backgroundTintMode="add"
+            android:backgroundTint="@color/colorAccent"
+            android:text="@string/capstone"
+            android:onClick="onButtonClick" />
+    </TableRow>
+
+    <TableRow>
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_gravity="fill_vertical" />
+    </TableRow>
+</TableLayout>
