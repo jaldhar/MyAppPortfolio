@@ -23,27 +23,13 @@
 
         <Button
             android:id="@+id/btnMovies"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:layout_weight="1"
-            android:layout_marginRight="@dimen/cell_right_margin"
-            android:background="@color/colorPrimary"
-            android:backgroundTintMode="add"
-            android:backgroundTint="@color/colorAccent"
+            style="@style/leftButton"
             android:text="@string/popular_movies"
             android:onClick="onButtonClick" />
 
         <Button
             android:id="@+id/btnStock"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:layout_weight="1"
-            android:layout_marginLeft="@dimen/cell_left_margin"
-            android:background="@color/colorPrimary"
-            android:backgroundTintMode="add"
-            android:backgroundTint="@color/colorAccent"
+            style="@style/rightButton"
             android:text="@string/stock_hawk"
             android:onClick="onButtonClick" />
     </TableRow>
@@ -54,27 +40,13 @@
 
         <Button
             android:id="@+id/btnBigger"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:layout_weight="1"
-            android:layout_marginRight="@dimen/cell_right_margin"
-            android:background="@color/colorPrimary"
-            android:backgroundTintMode="add"
-            android:backgroundTint="@color/colorAccent"
+            style="@style/leftButton"
             android:text="@string/build_bigger"
             android:onClick="onButtonClick" />
 
         <Button
             android:id="@+id/btnMaterial"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:layout_weight="1"
-            android:layout_marginLeft="@dimen/cell_left_margin"
-            android:background="@color/colorPrimary"
-            android:backgroundTintMode="add"
-            android:backgroundTint="@color/colorAccent"
+            style="@style/rightButton"
             android:text="@string/material"
             android:onClick="onButtonClick" />
     </TableRow>
@@ -85,27 +57,13 @@
 
         <Button
             android:id="@+id/btnUbiquitous"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:layout_weight="1"
-            android:layout_marginRight="@dimen/cell_right_margin"
-            android:background="@color/colorPrimary"
-            android:backgroundTintMode="add"
-            android:backgroundTint="@color/colorAccent"
+            style="@style/leftButton"
             android:text="@string/ubiquitous"
             android:onClick="onButtonClick" />
 
         <Button
             android:id="@+id/btnCapstone"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:layout_weight="1"
-            android:layout_marginLeft="@dimen/cell_left_margin"
-            android:background="@color/colorPrimary"
-            android:backgroundTintMode="add"
-            android:backgroundTint="@color/colorAccent"
+            style="@style/rightButton"
             android:text="@string/capstone"
             android:onClick="onButtonClick" />
     </TableRow>
