@@ -8,7 +8,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin">
 
-    <TableRow>
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="match_parent">
 
         <android.support.v4.widget.Space
             android:layout_width="match_parent"
@@ -16,7 +17,9 @@
             android:layout_gravity="fill_vertical" />
     </TableRow>
 
-    <TableRow android:layout_weight="1">
+    <TableRow android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
 
         <Button
             android:id="@+id/btnMovies"
@@ -45,7 +48,9 @@
             android:onClick="onButtonClick" />
     </TableRow>
 
-    <TableRow android:layout_weight="1">
+    <TableRow android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
 
         <Button
             android:id="@+id/btnBigger"
@@ -74,7 +79,9 @@
             android:onClick="onButtonClick" />
     </TableRow>
 
-    <TableRow android:layout_weight="1">
+    <TableRow android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
 
         <Button
             android:id="@+id/btnUbiquitous"
@@ -103,7 +110,8 @@
             android:onClick="onButtonClick" />
     </TableRow>
 
-    <TableRow>
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="match_parent">
 
         <android.support.v4.widget.Space
             android:layout_width="match_parent"
